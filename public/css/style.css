@@ -6,13 +6,122 @@
 }
 
 body {
+  color: red;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* #of columns, amount of space for each column */
-  grid-template-rows: repeat(2, 50px); /* #of rows, amount of space for each rows */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  /* #of columns, amount of space for each column */
+  grid-template-rows: repeat(2, 100px);
+  /* #of rows, amount of space for each rows */
   gap: 3px;
+  margin: 2rem;
+}
+
+.one {
+  background-color: aquamarine;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.two {
+  background-color: orangered;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.three {
+  background-color: turquoise;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.four {
+  background-color: orange;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.five {
+  background-color: navajowhite;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+.six {
+  background-color: orangered;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.seven {
+  background-color: purple;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.eight {
+  background-color: powderblue;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.nine {
+  background-color: pink;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+.ten {
+  background-color: tan;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+.eleven {
+  background-color: palevioletred;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+.twelve {
+  background-color: aquamarine;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 2rem;
+  text-transform: uppercase;
 }
